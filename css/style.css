@@ -1,0 +1,86 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+:root {
+    --Box-shawdow : rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+/* --------------------------------- */
+/* main flex box contain 2 parts 
+1. image section
+2. form section */
+
+.mainFlex {
+    display: flex;
+}
+
+
+/* -------------------------------- */
+/* image section */
+
+.img {
+    width: 500px;
+    height: 900px;
+}
+
+.caption {
+    display: flex;
+    position: absolute;
+    top: 30vh;
+    left: 20vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.caption img {
+    height: 80px;
+    width: 80px;
+}
+
+
+/* -------------------------------- */
+
+/* form section */
+
+.Rsec {
+    padding-top: 95px;
+    padding-bottom: 40px;
+    padding-left: 36px;
+}
+
+.FormSec {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 24px;
+}
+
+.inputs{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+form {
+    box-shadow: var(--Box-shawdow);
+    height: 200px;
+}
+
+.Create {
+    padding: 10px;
+    border-radius: 4%;
+    width: 150px;
+    background-color: rgb(124, 234, 124);
+}
+
+a {
+    text-decoration: none;
+    color: green;
+}
+
+.TwoParts > div:nth-child(1) p{
+    font-size: large;
+}
